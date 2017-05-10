@@ -1,0 +1,25 @@
+{
+  "name": "myshop",
+  "version": "1.0.0",
+  "description": "A simple ecommerce built with Django, using celery, rabbitmq and paypal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "django",
+    "python",
+    "rabbitmq",
+    "paypal",
+    "celery"
+  ],
+  "author": "Vinícius M. Michelutti",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-uglify": "^2.3.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
