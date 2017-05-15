@@ -1,12 +1,8 @@
 from django.shortcuts import render, get_object_or_404
 
-# Create your views here.
 from shop.gateways.product_gateway import ProductGateway
 from shop.models import Category, Product
 
-
-def test(request):
-    return render(request, 'shop/test.html')
 
 def product_list(request, category_slug=None):
     product_gateway = ProductGateway()
