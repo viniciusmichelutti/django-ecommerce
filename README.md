@@ -1,3 +1,4 @@
-Start RabbitMQ - sbin/rabbitmq-server
-Start Flower - celery -A myshop flower
-Start Celery - celery -A myshop worker -l info
+# Running
+RabbitMQ - sbin/rabbitmq-server  
+Flower - celery -A myshop flower  
+Celery - celery -A myshop worker -l info
